@@ -2,7 +2,7 @@
 #include "unit_test_framework.hpp"
 
 
-TEST(test_stub) {
+TEST(test_bool_empty_impl) {
     // Add your tests here
     ASSERT_TRUE(true);
 }
