@@ -64,8 +64,6 @@ public:
   // If these operations will work correctly without defining them,
   // you should omit them. A user of the class must be able to create,
   // copy, assign, and destroy Maps.
-  BinarySearchTree<Pair_type, PairComp> tree;
-
 
 
   // EFFECTS : Returns whether this Map is empty.
@@ -142,6 +140,7 @@ public:
 
 private:
   // Add a BinarySearchTree private member HERE.
+  BinarySearchTree<Pair_type, PairComp> tree;
 };
 
 #endif // DO NOT REMOVE!!!
